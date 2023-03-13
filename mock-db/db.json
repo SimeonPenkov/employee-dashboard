@@ -1,0 +1,77 @@
+{
+  "employees": [
+    {
+      "fullName": "treer ddff",
+      "email": "yrde@abv.bg",
+      "phoneNumber": "123213",
+      "birthday": "2000-12-12",
+      "salary": "65555",
+      "tasks": [],
+      "id": 5
+    },
+    {
+      "fullName": "kotkws saw",
+      "email": "asd1239@asd.com",
+      "phoneNumber": "2312312",
+      "birthday": "1999-12-12",
+      "salary": "1999",
+      "tasks": [],
+      "id": 6
+    },
+    {
+      "fullName": "mitko the new",
+      "email": "mitko09@kalitoko.com",
+      "phoneNumber": "123123123",
+      "birthday": "1999-12-12",
+      "salary": "123123",
+      "tasks": [],
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "id": 2,
+      "title": "task 2",
+      "description": "this task",
+      "assignedTo": {
+        "id": 3,
+        "fullName": "mitko"
+      },
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "task 3",
+      "description": "this task",
+      "assignedTo": {
+        "id": 2,
+        "fullName": "ivan"
+      },
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "task 4",
+      "description": "this task",
+      "assignedTo": {
+        "id": 1,
+        "fullName": "asd"
+      },
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "task 5",
+      "description": "newest task",
+      "assignedTo": {},
+      "completed": false
+    },
+    {
+      "title": "lastest task",
+      "description": "12312323123",
+      "assignedTo": {},
+      "completed": false,
+      "id": 6
+    }
+  ]
+}
