@@ -1,0 +1,41 @@
+Hello, thank you for the opportunity to participate in your internship
+Program.
+
+Unfortunately I had only one day to do this task, so the result is not satisfying for me,
+but I decided to send you what I have created and try to not miss the chance for this
+opportunity.
+
+The initialization of the project is very easy.
+It contains a mock data base in the mock-db folder.
+You just need to install the json-server: npm i json-server
+and npm init the package.json (it contains everything inside),
+then start the json server with the command: json-server --watch db.json --port 8000
+I suggest port 8000 since, the frontend part of the project is using react.js
+which default port runs on 3000
+
+The second part is to navigate to cd my-app, where you should also npm init to
+install all of the node_modules.
+Then just use the command 'npm start' and the app should start on localhost:3000 by default
+
+Now regarding the front-end architecture.
+It is very simple, I decided to have a main dashboard, which holds the states for
+both dashboards (employees and tasks).
+
+Each dashboard takes the state for it (either employees or tasks) and renders
+everything from the Database
+
+Each item has its own buttons for alteration and the handlers are passed to the 
+most upper component that holds the state and handles the functions (edit, del)
+
+In each dashboard we have a link to create either a task or employee.
+From the main app component we use the route to navigate to each
+creation page.
+
+I understand that the components could be separated in 2 folders 
+(1 folder for employee components and another folder for task components), 
+but unfortunately I had no time to do that.
+
+If given more time I could add the missing tasks and adjust the components 
+in diffent folders as they should be.
+
+Thank you for your time.
